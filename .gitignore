@@ -1,1 +1,12 @@
+# virtualenv shit
+bin/
+include/
+lib/
+# django
+manage.py
+settings_local.py
+migrations
+# junk
+*.pyc
+*.swp
 *.o
