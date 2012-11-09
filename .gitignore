@@ -6,6 +6,7 @@ lib/
 manage.py
 settings_local.py
 migrations
+*.sqlite
 # junk
 *.pyc
 *.swp
