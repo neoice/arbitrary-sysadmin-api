@@ -32,5 +32,5 @@ sys.path.append(cwd + '/arbitrary_sysadmin_api')
 
 # now start django
 from django.core.handlers.wsgi import WSGIHandler
-os.environ['DJANGO_SETTINGS_MODULE'] = 'app1.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'arbitrary_sysadmin_api.settings'
 application = WSGIHandler()
